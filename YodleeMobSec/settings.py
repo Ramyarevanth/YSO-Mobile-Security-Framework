@@ -100,7 +100,7 @@ STATIC_URL = '/static/'
 
  
 if platform.system()=="Windows":
-    JAVA_PATH='C:/Program Files/Java/jdk1.7.0_17/bin/'  # Use "/" instead of "\" while setting the path.
+    JAVA_PATH='C:/opt/java/jdk1.8.0_31/bin/'  # Use "/" instead of "\" while setting the path.
     VBOX='C:\Program Files\Oracle\VirtualBox\VBoxManage.exe' #Path to VBoxManage.exe
 else:
     JAVA_PATH='/usr/bin/' #For OSX and Linux
